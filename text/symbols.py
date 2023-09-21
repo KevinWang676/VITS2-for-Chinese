@@ -30,11 +30,11 @@ _punctuation = ',.!?…~'
 _letters = 'ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅃㅆㅉㅏㅓㅗㅜㅡㅣㅐㅔ '
 '''
 
-'''# chinese_cleaners
+# chinese_cleaners
 _pad        = '_'
-_punctuation = '，。！？—…'
+_punctuation = '，,。！？—…'
 _letters = 'ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄧㄨㄩˉˊˇˋ˙ '
-'''
+
 
 '''# zh_ja_mixture_cleaners
 _pad        = '_'
@@ -87,12 +87,12 @@ _letters = 'абвгдежзийклмнопрстуфхцчшщъыьэюяё'
 _letters_ipa = "ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ"
 '''
 
-#''' Symbols for en/ko/ja cleaners - from MB-iSTFT-VITS-multilingual
+''' Symbols for en/ko/ja cleaners - from MB-iSTFT-VITS-multilingual
 _pad        = '_'
 _punctuation = ';:,.!?¡¿—…"«»“” '
 _letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅃㅆㅉㅏㅓㅗㅜㅡㅣㅐㅔ'
 _letters_ipa = "ɑɐɒæɓʙβɔɕçɗɖðʤəɘɚɛɜɝɞɟʄɡɠɢʛɦɧħɥʜɨɪʝɭɬɫɮʟɱɯɰŋɳɲɴøɵɸθœɶʘɹɺɾɻʀʁɽʂʃʈʧʉʊʋⱱʌɣɤʍχʎʏʑʐʒʔʡʕʢǀǁǂǃˈˌːˑʼʴʰʱʲʷˠˤ˞↓↑→↗↘'̩'ᵻ"
-#'''
+'''
 
 # Export all symbols:
 #symbols = [_pad] + list(_punctuation) + list(_letters)
