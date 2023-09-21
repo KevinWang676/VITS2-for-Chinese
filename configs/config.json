@@ -22,8 +22,8 @@
     },
     "data": {
       "use_mel_posterior_encoder": true,
-      "training_files":"filelists/final_annotation_train.txt",
-      "validation_files":"filelists/final_annotation_val.txt",
+      "training_files":"filelists/short_character_anno_train.list.cleaned",
+      "validation_files":"filelists/short_character_anno_val.list.cleaned",
       "text_cleaners":["chinese_cleaners"],
       "max_wav_value": 32768.0,
       "sampling_rate": 22050,
