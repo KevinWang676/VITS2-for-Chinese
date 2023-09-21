@@ -6,8 +6,8 @@ numpy
 numba==0.56.4
 phonemizer==3.2.1
 scipy==1.10.1
-#torch~=1.13.0+cu117
-#torchvision==0.7.0
+torch==1.13.0
+torchvision==0.14.0
 Unidecode==1.1.1
 tensorboardX
 tqdm~=4.66.1
