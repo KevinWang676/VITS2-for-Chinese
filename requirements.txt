@@ -28,3 +28,5 @@ tensorboard
 # ipython for notebook inference
 ipython
 openai-whisper
+protobuf==3.20.*
+gradio
